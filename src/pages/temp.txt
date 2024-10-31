@@ -1,0 +1,65 @@
+<div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-red text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                    {/* <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                        <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                    </svg> */}
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-black/75 p-4 rounded shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-white">SMA Bukit Sion</div>
+                        <time class="font-caveat font-medium text-red">2019 - 2022</time>
+                    </div>
+                    <div class="text-grey-500 font-light">Education - High School.</div>
+                </div>
+            </div>
+
+            
+            <div id='placeholder' class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-red text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                    {/* <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                        <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                    </svg> */}
+                </div>
+                <div class="tl-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-black/75 p-4 rounded shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-white">Mr Ms UMN</div>
+                        <time class="font-caveat font-medium text-red">2024-2025</time>
+                    </div>
+                    <div class="text-grey-500 font-medium">Website Division Member.</div>
+                    <div class="text-grey-500 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati maxime aliquam numquam minus eos explicabo fugit non dolorum in!.</div>
+
+                </div>
+            </div>
+
+
+            <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-red text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                    {/* <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                        <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                    </svg> */}
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-black/75 p-4 rounded shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-white">Universitas Multimedia Nusantara</div>
+                        <time class="font-caveat font-medium text-red">2022-2026</time>
+                    </div>
+                    <div class="text-grey-500 font-light">Education - University.</div>
+                </div>
+            </div>
+
+            <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-red text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                    {/* <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                        <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                    </svg> */}
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-black/75 p-4 rounded shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-white">Ultimagz</div>
+                        <time class="font-caveat font-medium text-red">2022-2024</time>
+                    </div>
+                    <div class="text-grey-500 font-medium">Website division member</div>
+
+                    <div class="text-grey-500 font-light">Experience - University.</div>
+                </div>
+            </div>
