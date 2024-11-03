@@ -23,7 +23,7 @@ function Hero({ scrollFunction}) {
             <div className="flex my-3 gap-8 lg:gap-5 flex-row lg:flex-col">
               <a href='https://github.com/kevinh11'><i class="fa-brands fa-github"></i></a>
               <a href='https://www.instagram.com/kevin.hd9/'><i class="fa-brands fa-instagram"></i></a>
-              <a href=''><i class="fa-brands fa-whatsapp"></i></a>
+              <a href='wa.me/6281284340881'><i class="fa-brands fa-whatsapp"></i></a>
             </div>
           </div>
         </div>

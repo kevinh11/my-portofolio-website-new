@@ -12,12 +12,12 @@ function AboutMe({projects}) {
       <div
         className="my-5 relative page about-me flex flex-col justify-start items-center"
       >
-        <div className="about-me-content h-full md:my-4 flex flex-col lg:flex-row justify-start items-start lg:items-center">
+        <div className="about-me-content h-full md:my-4 flex flex-col lg:flex-row justify-start items-start ">
           <div className="about-me-info flex flex-col items-start justify-center">
-            <div className="info-card-sec flex flex-row">
+            <div className="info-card-sec flex flex-row items-start">
               <div className="info-card flex flex-col items-start justify-center text-left">
                 <h1 className="text-4xl font-medium">03</h1>
-                <h5 className="my-5 text-xl font-light">Years of Experience</h5>
+                <h5 className="my-5 text-xl font-light">Years of Programming Experience</h5>
               </div>
               <div className="info-card flex flex-col items-start justify-center text-left">
                 <h1 className="text-4xl font-medium">{formatNum(projects.length)}</h1>
@@ -29,7 +29,7 @@ function AboutMe({projects}) {
               id="downloadcv"
               className="bg-red hover:bg-blue-700 text-white text-xl font-bold py-2 px-4 rounded"
               
-            > <a href="files/CV_KevinWijayaHadinata_final" download >Download CV!</a>
+            > <a style={{color:"white"}} href="https://drive.google.com/file/d/1-OBGcII9Wm3AY0yCr7gOSvMfek-e8jPV/view?usp=sharing">Download CV!</a>
             </button>
           </div>
 
