@@ -85,7 +85,7 @@ function ContactMe() {
 
   return (
     <div data-aos="slide-left">
-      <h1 className="my-7 text-3xl md:text-5xl">Contact Me</h1>
+      <h1 className="my-7 text-2xl md:text-4xl">Contact Me</h1>
       <div className="flex page flex-col items-start justify-center">
         <form className='my-6 w-full' onChange={handleChange} onSubmit={handleSubmit}>
           <div className="form-row flex flex-col w-full gap-2">
@@ -100,7 +100,7 @@ function ContactMe() {
             <label htmlFor='Message'>Message</label>
             <textarea name="yourMessage" className="min-h-[200px] w-full font-light"></textarea>
           </div>
-          <button type="Submit" className='bg-red p-4 text-lg font-bold'>Send Message</button>
+          <button type="Submit" className='bg-red p-4 text-sm font-bold'>Send Message</button>
         </form>
       </div>
     </div>

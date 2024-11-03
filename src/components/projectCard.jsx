@@ -9,7 +9,7 @@ function ProjectCard({tags, name,desc, link, year,id}) {
   }
   return (
     <div data-aos='fade-down' data-aos-delay={calculateDelay()} className="project-card px-4 py-4 flex flex-col bg-black/75">
-      <h1 className="text-2xl text-red">{name}</h1>
+      <h1 className="text-xl text-red">{name}</h1>
       <div className="flex flex-row justify-between items-center">
         <h4 className="font-medium"> {year} </h4>
         <div>
@@ -17,7 +17,7 @@ function ProjectCard({tags, name,desc, link, year,id}) {
         </div>
       </div>
 
-      <div className="font-light text-lg">
+      <div className="font-light text-md">
         {desc}
       </div>
 

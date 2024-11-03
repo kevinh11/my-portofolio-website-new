@@ -60,14 +60,12 @@ function Projects({projects}) {
 
   return (
     <>
-    <h1 className="my-5 text-3xl md:text-5xl">Skills & Projects</h1>
+    <h1 className="my-5 text-3xl md:text-4xl">Skills & Projects</h1>
     <div className="relative p-5 page gap-10 projects flex flex-col justify-center items-start">
 
       <div className="my-7 categories">
         <h3 className='text-xl lg:text-2xl'>My Skills</h3>
         <h3 className='text-lg font-light'>Click to filter projects based on skills</h3>
-
-        
         <div className="my-3 grid category-buttons rounded">
           {skills.map((s) => (
             <SkillButton
@@ -79,14 +77,13 @@ function Projects({projects}) {
             />
           ))}
         </div>
-
         {selectedSkills.length > 0 ?
          <button onClick={clearSelectedSkills}>Clear</button> : <></>}
       </div>
       <div>
         <h4 className="text-xl lg:text-2xl">My Projects</h4>
         <div className="my-7 project-section">
-          {displayedProjects.map((p) => (
+          {displayedProjects.length > 0 ? displayedProjects.map((p) => (
             <ProjectCard
               key={p.id}
               tags={p.tags}
@@ -96,7 +93,7 @@ function Projects({projects}) {
               link={p.githubLink}
               id={p.id}
             />
-          ))}
+          )) : <h4>No projects with selected filters</h4>}
         </div>
       
       </div>

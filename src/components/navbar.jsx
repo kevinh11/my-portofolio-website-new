@@ -42,14 +42,14 @@ function Navbar({scrollFunction}) {
   return (
     <nav className="flex justify-between items-center py-7 w">
       <div className="flex">
-        <h1 className="text-5xl items-start font-bold text-white">Kevin H</h1>
-        <h1 className="text-red fw-bold text-5xl">.</h1>
+        <h1 className="text-4xl items-start font-bold text-white">Kevin H</h1>
+        <h1 className="text-red fw-bold text-4xl">.</h1>
       </div>
 
       <div id='nav-menu' className="nav-menu flex items-center justify-around">
-        <h3 onClick={()=> scrollFunction(1) }id='about'className="text-xl hover:text-red">About</h3>
-        <h3 onClick={()=> scrollFunction(2) }id='skills'className="text-xl hover:text-red">Experience</h3>
-        <h3 onClick={()=> scrollFunction(3.5) } id='quals'className="text-xl hover:text-red">Projects</h3>
+        <h3 onClick={()=> scrollFunction(1) }id='about'className="text-lg hover:text-red">About</h3>
+        <h3 onClick={()=> scrollFunction(2) }id='skills'className="text-lg hover:text-red">Experience</h3>
+        <h3 onClick={()=> scrollFunction(3.5) } id='quals'className="text-lg hover:text-red">Projects</h3>
       </div>
 
       <div onClick={toggleNav} className='hamburger-menu flex flex-col lg:hidden'>

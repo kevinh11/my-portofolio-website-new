@@ -9,7 +9,7 @@ function Hero({ scrollFunction}) {
         <div className="hero-profile my-4 flex flex-col lg:flex-row justify-start items-center">
           <img src='./images/selfImage.png'></img>
           <div className='profile-data flex flex-col justify-center lg:justify-start items-center lg:items-start text-center lg:text-left'>
-            <h1 className='text-2xl md:text-5xl'>Kevin Wijaya Hadinata</h1>
+            <h1 className='text-2xl md:text-4xl'>Kevin Wijaya Hadinata</h1>
             <h3 className='text-lg font-light'>Fullstack Developer, Infomatics Student</h3>
             <button onClick={()=> scrollFunction(5)} class="my-3 bg-red hover:bg-blue-700 text-white text-xl
             font-bold py-2 px-4 rounded">
