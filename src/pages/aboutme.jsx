@@ -35,12 +35,11 @@ function AboutMe({projects}) {
 
           <div className="about-me-text text-left text-wrap">
             <h5 className="text-md font-light my-4 md:my-5 text-lg md:text-xl">
-              My name is Kevin Wijaya Hadinata, and I am currently in my second
+              My name is Kevin Wijaya Hadinata, and I am currently in my third
               year of studying Informatics in Universitas Multimedia Nusantara
-              (UMN). I have a passion for web development, as well as learning
+              (UMN). I have a passion for web development and mobiel app development, as well as learning
               new things. I also enjoy joining various organizations to expand my
-              horizons and networking. Currently learning backend as well as
-              mobile development.
+              horizons and networking.
             </h5>
           </div>
         </div>

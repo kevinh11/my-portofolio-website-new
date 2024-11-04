@@ -24,46 +24,44 @@ function App() {
       id: 1,
       name: "UMNGotchi",
       year: 2022,
-      desc: "Game bertema tamagochi yang dibuat untuk UTS Mata Kuliah Web Programming",
-      githubLink: "",
+      desc: "A Tamagotchi-themed game created for the Midterm Exam in Web Programming",
+      githubLink: "https://github.com/kevinh11/Tamagotchi-Game",
       tags: ["HTML5", "CSS3", "JS"]
     },
     {
       id: 2,
       name: "Gereja Isa Al-Masih",
       year: 2023,
-      desc: "Website dari Gereja Isa Al-Masih Rajawali, yang memiliki fitur lengkap CRUD dan admin panel",
-      githubLink: "",
+      desc: "Website for Isa Al-Masih Rajawali Church, featuring full CRUD functionality and an admin panel",
+      githubLink: "https://github.com/kevinh11/UAS_WebProg_Gereja",
       tags: ["Laravel", "CSS3", "JS", "HTML5", "MySQL"]
     },
     {
       id: 3,
-      name: "MoviePedia",
-      year: 2022,
-      desc: "Sebuah Website dimana user dapat mencari informasi tentang berbagai film, melalui sebuah API. Website dapat menampilkan film paling bagus, populer, dsb.",
-      githubLink: "",
-      tags: ["ReactJS", "CSS3", "JS"]
+      name: "Fokus Budaya ULTIMAGZ",
+      year: 2023,
+      desc: "An artistic website showcasing various Indonesian cultures. Parts developed: Pages 4 and 5",
+      githubLink: "https://github.com/kevinh11/fokus-2023-budaya",
+      tags: ["ReactJS", "CSS3"]
     },
-
     {
-      id:4,
-      name:"Fokus Budaya ULTIMAGZ",
-      year:2023,
-      desc:"Website artistik yang menunjukkan berbagai budaya Indonesia. Bagian yang dikerjakan: Halaman 4 dan 5",
-      githubLink:"https://github.com/kevinh11/fokus-2023-budaya",
-      tags: ["ReactJS","CSS3"]
-    }, 
+      id: 4,
+      name: "GeoMinder (on progress)",
+      year: 2024,
+      desc: "A geolocation-based reminder and note-taking app that allows users to receive notifications on what they should do or buy, when they are near a certain location.",
+      githubLink: "https://github.com/C-4NDR3W/GeoMinder",
+      tags: ["Kotlin", "Firebase"]
+    },
     {
-      id:5,
-      name:"GeoMinder (on progress)",
-      year:2024,
-      desc:"Sebuah aplikasi note berbasis geolokasi yang dapat memberikan pengingat jika pengguna dekat dengan suatu tempat, yang dibuat dalam kelompok 4 orang",
-      githubLink:"https://github.com/C-4NDR3W/GeoMinder.git",
-      tags: ["Kotlin","Firebase"]
-    }, 
+      id: 5,
+      name: "MrMsUMN Website",
+      year: 2024,
+      desc: "A website for UMN's Pair Model show, MrMsUMN. Developed the backend, which includes CRUD, mailing, ticketing, and authentication. Also contributed to some frontend pages",
+      githubLink: "https://github.com/MichaelAditya/mrms2024",
+      tags: ["Laravel", "MySQL", "HTML5", "CSS3"]
+    }
+];
 
-
-  ];
   function updateViewport() {
     viewport.current = window.innerHeight;
   }
