@@ -42,7 +42,7 @@ function Navbar({scrollFunction}) {
   return (
     <nav className="flex justify-between items-center py-7 w">
       <div className="flex">
-        <h1 className="text-4xl items-start font-bold text-white">Kevin H</h1>
+        <h1 className="text-4xl items-start font-bold text-white">Kevin WH</h1>
         <h1 className="text-red fw-bold text-4xl">.</h1>
       </div>
 
