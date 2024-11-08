@@ -16,7 +16,7 @@ function Footer({footerRef}) {
         <div className="flex flex-row">
           <h4 className="text-sm">Copyright 2024 Kevin Wijaya Hadinata. All Rights Reserved</h4>
         </div>
-        <a href="https://github.com/kevinh11/Portofolio-Website" className="text-inherit hover:text-inherit"><h4 className="font-medium underline decoration-red cursor-pointer">  View Source Code</h4></a>
+        <a href="https://github.com/kevinh11/my-portofolio-website-new" className="text-inherit hover:text-inherit"><h4 className="font-medium underline decoration-red cursor-pointer">  View Source Code</h4></a>
 
       </div>
 
